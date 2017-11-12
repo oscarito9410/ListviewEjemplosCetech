@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oscar.listviewejemplos.DetalleActivity">
+
+    <ImageView
+        android:id="@+id/imgJugador"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/andres_guardado"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_below="@+id/imgJugador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oscar Pérez Martínez"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#2766da"/>
+
+    <TextView
+        android:id="@+id/tvPos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Portero"
+        android:layout_below="@+id/tvNombre"
+        android:textAlignment="center"
+        android:textColor="#071976"/>
+
+
+
+
+</RelativeLayout>

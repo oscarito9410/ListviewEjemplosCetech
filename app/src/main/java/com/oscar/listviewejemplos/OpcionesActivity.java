@@ -25,5 +25,7 @@ public class OpcionesActivity extends AppCompatActivity {
 
 
     public void baseAdapter(View view) {
+        Intent intent=new Intent(this,JugadorActivity.class);
+        startActivity(intent);
     }
 }

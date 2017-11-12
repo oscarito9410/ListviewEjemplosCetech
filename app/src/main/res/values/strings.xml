@@ -6,6 +6,7 @@
     <string name="ejemplo_con_entries">EJEMPLO CON ENTRIES</string>
     <string name="ejemplo_con_array_adapter">EJEMPLO CON ARRAY ADAPTER</string>
     <string name="ejemplo_con_base_adapter">EJEMPLO CON BASE ADAPTER</string>
+    <string name="jugadores_seleccion">Jugadores de la selección</string>
 
     <string-array name="animales">
         <item>Perro</item>
