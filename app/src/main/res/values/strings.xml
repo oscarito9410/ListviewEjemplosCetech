@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ListviewEjemplos</string>
+    <string name="selecciona_un_animal">Selecciona un animal</string>
+
+    <string name="has_seleccionado">Has seleccionado a:</string>
+    <string name="ejemplo_con_entries">EJEMPLO CON ENTRIES</string>
+    <string name="ejemplo_con_array_adapter">EJEMPLO CON ARRAY ADAPTER</string>
+    <string name="ejemplo_con_base_adapter">EJEMPLO CON BASE ADAPTER</string>
+
+    <string-array name="animales">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Caballo</item>
+        <item>Cerdo</item>
+    </string-array>
+
+</resources>

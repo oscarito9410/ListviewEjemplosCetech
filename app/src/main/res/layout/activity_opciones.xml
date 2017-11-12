@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oscar.listviewejemplos.OpcionesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRojo"
+            android:onClick="entries"
+            android:text="@string/ejemplo_con_entries"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRojo"
+            android:onClick="arrayAdapter"
+            android:text="@string/ejemplo_con_array_adapter"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor
+                ="@color/colorRojo"
+            android:onClick="baseAdapter"
+            android:text="@string/ejemplo_con_base_adapter"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
